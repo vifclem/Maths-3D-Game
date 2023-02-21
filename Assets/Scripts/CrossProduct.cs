@@ -14,12 +14,7 @@ public class CrossProduct : MonoBehaviour
     }
     private void Update()
     {
-        //float dot = Vector3.Dot(player.transform.forward, -enemy.transform.forward);
-       // debugText.text += $"Dot : {dot}\n";
-        //Vector3 cross = Vector3.Cross(player.transform.forward, -enemy.transform.forward);
-        //debugText.text += $"Cross : {cross}\n";
-        //Vector3 direction = enemy.transform.position - player.transform.position;
-        //debugText.text += $"Direction : {direction}\n";
+        
 
     }
 
