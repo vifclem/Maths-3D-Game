@@ -13,8 +13,7 @@ public class DebugInfo : MonoBehaviour
     void Update()
     {
         
-        Vector3 cross = Vector3.Cross(player.transform.forward, -enemy.transform.forward);
-        debugText.text = $"Cross : {cross}\n";
+        
         Vector3 direction = enemy.transform.position - player.transform.position;
         direction.Normalize();
         debugText.text += $"Direction : {direction}\n";
@@ -25,11 +24,9 @@ public class DebugInfo : MonoBehaviour
 
 
 
-        debugText.text += $"Player {player.transform.forward}\n" +
-            $"Enemy {enemy.transform.forward}" +
+        debugText.text +=
             $"Direction {direction}\n" +
-            $"Dot {dot}\n" +
-            $"cross {cross}\n" +
+            //$"Dot {dot}\n" +
             $"dotSight {dotSight}\n";
 
        
