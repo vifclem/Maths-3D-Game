@@ -485,7 +485,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.015541327, y: 0.35370713}
   m_AnchorMax: {x: 0.291, y: 0.9647804}
-  m_AnchoredPosition: {x: 0, y: 0.000061035}
+  m_AnchoredPosition: {x: 0, y: 0.000061035156}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &639702620
@@ -599,7 +599,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1762682262}
   enemy: {fileID: 1586622188}
-  debugText: {fileID: 0}
+  direction: {fileID: 0}
+  debugText: {fileID: 639702620}
 --- !u!4 &700051398 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8338988566280778637, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
