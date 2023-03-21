@@ -392,6 +392,12 @@ namespace StarterAssets
                 AudioSource.PlayClipAtPoint(LandingAudioClip, transform.TransformPoint(_controller.center), FootstepAudioVolume);
             }
         }
+
+        public void Hit(InputAction.CallbackContext context)
+        {
+            Destroy(enemy);
+            
+        }
     }
 
 
